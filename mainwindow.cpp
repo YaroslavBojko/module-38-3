@@ -49,3 +49,8 @@ void MainWindow::openFile()
                                             );
     openNewImage(filePath, ui->horizontalSlider->value());
 }
+
+void MainWindow::blurImage()
+{
+    openNewImage(filePath, ui->horizontalSlider->value());
+}

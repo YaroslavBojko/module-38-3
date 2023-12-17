@@ -29,7 +29,7 @@ public:
 
 public slots:
     void openFile();
-    //void blurImage();
+    void blurImage();
 
 private:
     Ui::MainWindow *ui;
